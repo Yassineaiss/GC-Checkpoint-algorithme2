@@ -71,7 +71,7 @@ BEGIN
         ELSE
           j:= j+1 
        END
-      UNTIL (j=(tab2.length) -1)
+      END
      sum := sum +tab1[i] ; 
    End_FOR
 
@@ -85,7 +85,7 @@ BEGIN
        i:= i+1 
     END
   
-  UNTIL (j=(tab1.lengt) -1)
+  END
 
   sum := sum +tab2[i] ; 
 End_FOR
